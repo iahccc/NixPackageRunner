@@ -1,0 +1,18 @@
+{
+  "id": "nixPackageRunner",
+  "name": "Nix Package Runner",
+  "description": "Search nixpkgs packages and launch them with nix shell",
+  "version": "0.1.0",
+  "author": "iahc",
+  "icon": "package_2",
+  "type": "launcher",
+  "trigger": "nix",
+  "viewMode": "list",
+  "viewModeEnforced": false,
+  "component": "./NixPackageRunner.qml",
+  "settings": "./NixPackageRunnerSettings.qml",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
